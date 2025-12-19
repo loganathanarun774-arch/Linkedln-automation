@@ -1,43 +1,18 @@
-LinkedIn Automation Tool (Go + Rod)
+# React + Vite
 
-A Go-based LinkedIn automation proof-of-concept built using the Rod browser automation library. The project demonstrates secure authentication, profile search, connection automation, messaging workflows, and advanced anti-bot detection techniques.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Key Features
+Currently, two official plugins are available:
 
-Secure login with session persistence
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Profile search, pagination, and deduplication
+## React Compiler
 
-Automated connection requests with personalized notes
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Follow-up messaging for accepted connections
+Note: This will impact Vite dev & build performances.
 
-Stealth & Anti-Bot Techniques
+## Expanding the ESLint configuration
 
-Human-like mouse movement (Bézier curves)
-
-Randomized delays and interaction timing
-
-Browser fingerprint masking
-
-Realistic typing and scrolling behavior
-
-Rate limiting and activity scheduling
-
-Tech Stack
-
-Go (Golang)
-
-Rod (Browser Automation)
-
-SQLite / JSON (State Persistence)
-
-YAML / Environment Variables
-
-Project Focus
-
-Clean, modular architecture
-
-Robust error handling and structured logging
-
-Realistic human-behavior simulation
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
